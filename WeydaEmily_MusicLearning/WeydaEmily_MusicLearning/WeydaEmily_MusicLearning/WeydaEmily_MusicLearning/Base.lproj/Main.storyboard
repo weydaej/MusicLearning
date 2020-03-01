@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="PVt-w4-ix0">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WeydaEmily_MusicLearning" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMp-iA-aVt">
+                                <rect key="frame" x="26" y="515" width="22" height="22"/>
+                                <connections>
+                                    <segue destination="Y41-g9-A1j" kind="push" id="Cez-uq-RWa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hhh-NK-KWs">
+                                <rect key="frame" x="241" y="244" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="A">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1qN-EH-bxO"/>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="4Y0-5G-XQa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oj9-bf-4CA">
+                                <rect key="frame" x="127" y="302" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="C">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ad1-vL-8XJ"/>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="NoJ-zS-eVP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCL-qj-vhj">
+                                <rect key="frame" x="49" y="244" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="E">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A85-PD-mvq"/>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="Upg-uT-e7s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXL-zT-oOk">
+                                <rect key="frame" x="89" y="244" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="F">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aDh-4e-Key"/>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="cSE-Fy-fgQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wzJ-Rb-e2b">
+                                <rect key="frame" x="165" y="244" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="G">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="luG-bd-1p8"/>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="J5Q-Ae-6fe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leG-Qx-3ym">
+                                <rect key="frame" x="89" y="302" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="B">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YeB-P5-2mf"/>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="wTx-VK-zrl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2pv-C3-fRt">
+                                <rect key="frame" x="167" y="302" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="C#">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YKP-i3-AVg"/>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="fud-bD-Ws6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POd-18-aKN">
+                                <rect key="frame" x="127" y="244" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="F#">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xw3-G5-ba6"/>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="fwn-SB-0Q7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iqp-DF-As4">
+                                <rect key="frame" x="203" y="244" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="G#">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t3H-L7-QKh"/>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="fdj-oh-ZWp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WKR-v1-7Xd">
+                                <rect key="frame" x="205" y="302" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="D">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WRg-8g-GND"/>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="lfT-E0-jsP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDh-eo-bj1">
+                                <rect key="frame" x="243" y="302" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="D#">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yko-wg-fJy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9nn-8U-rxT">
+                                <rect key="frame" x="49" y="302" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="A#">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jgn-mG-X9F"/>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="7ww-tW-The"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lq4-RL-9NQ">
+                                <rect key="frame" x="55" y="413" width="79" height="74"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xNp-La-Zkl">
+                                <rect key="frame" x="181" y="413" width="79" height="74"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Cm4-SI-4Rv">
+                        <nil key="title"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yww-50-WnL">
+                            <rect key="frame" x="121" y="7" width="78" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Start Game">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="startGame" destination="BYZ-38-t0r" eventType="touchUpInside" id="WeW-Bt-MR9"/>
+                            </connections>
+                        </button>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="447" y="339"/>
+        </scene>
+        <!--Help View Controller-->
+        <scene sceneID="pH6-Am-y2R">
+            <objects>
+                <viewController id="Y41-g9-A1j" customClass="HelpViewController" customModule="WeydaEmily_MusicLearning" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LKg-C9-XJO"/>
+                        <viewControllerLayoutGuide type="bottom" id="xAS-MJ-G3a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gLr-Yc-Hjh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xtB-9S-Odb">
+                                <rect key="frame" x="24" y="110" width="272" height="181"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Instructions:  The game has 3 turns. At the beginning of each turn, you will hear a sound. Click the button that corresponds to the name of the note you heard. Good luck! :)</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37582131410256414" green="0.37582131410256414" blue="0.37582131410256414" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="Avenir-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTA-bJ-dwH">
+                                <rect key="frame" x="243" y="337" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="A">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="a5J-cN-fy7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LnD-wx-p0s">
+                                <rect key="frame" x="127" y="393" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="C">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="epd-Db-YBy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QX8-qa-g4U">
+                                <rect key="frame" x="49" y="337" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="E">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="Z4p-13-iO7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZ8-7I-bnc">
+                                <rect key="frame" x="89" y="337" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="F">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="kRq-Sy-wJp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wC3-z4-vNF">
+                                <rect key="frame" x="167" y="337" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="G">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="Fac-Y1-7rx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9rz-Ju-wSo">
+                                <rect key="frame" x="167" y="393" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="C#">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="BPO-2Y-vIo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uu9-on-gr7">
+                                <rect key="frame" x="127" y="337" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="F#">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="uYq-ir-YZi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PDF-L2-r4S">
+                                <rect key="frame" x="205" y="337" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="G#">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="5CB-4Q-JrO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7q-4c-HcT">
+                                <rect key="frame" x="205" y="393" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="D">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="fxy-ph-dTx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYn-BW-Nf5">
+                                <rect key="frame" x="243" y="393" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="D#">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="ZKJ-4u-uzQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3y2-QV-r0u">
+                                <rect key="frame" x="87" y="393" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="B">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="tY2-q9-BGC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="stF-tL-oOC">
+                                <rect key="frame" x="49" y="393" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.70606350900000003" green="0.70606350900000003" blue="0.70606350900000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="A#">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playNote:" destination="Y41-g9-A1j" eventType="touchUpInside" id="4wc-Ds-o0V"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.62472041649999999" green="1" blue="0.91407957920000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OpB-l2-EFd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xGG-as-OXP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="850" y="339"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8YT-vX-Myg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PVt-w4-ix0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="C0u-Dd-ImV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="EqF-7i-bmq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zs2-8M-gsh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33" y="339"/>
+        </scene>
+    </scenes>
+</document>

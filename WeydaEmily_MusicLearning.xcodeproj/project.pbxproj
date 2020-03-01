@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FB023231D24A0FD004F12BF /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB023221D24A0FD004F12BF /* StatsViewController.swift */; };
+		7FEC54581D1B4BE7005FC241 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEC54571D1B4BE7005FC241 /* AppDelegate.swift */; };
+		7FEC545A1D1B4BE7005FC241 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEC54591D1B4BE7005FC241 /* ViewController.swift */; };
+		7FEC545D1D1B4BE7005FC241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEC545B1D1B4BE7005FC241 /* Main.storyboard */; };
+		7FEC545F1D1B4BE7005FC241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FEC545E1D1B4BE7005FC241 /* Assets.xcassets */; };
+		7FEC54621D1B4BE7005FC241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEC54601D1B4BE7005FC241 /* LaunchScreen.storyboard */; };
+		7FEC546A1D1B4F06005FC241 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEC54691D1B4F06005FC241 /* AVFoundation.framework */; };
+		7FEC54781D1B5313005FC241 /* A#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FEC546C1D1B5313005FC241 /* A#.mp3 */; };
+		7FEC54791D1B5313005FC241 /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FEC546D1D1B5313005FC241 /* A.mp3 */; };
+		7FEC547A1D1B5313005FC241 /* B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FEC546E1D1B5313005FC241 /* B.mp3 */; };
+		7FEC547B1D1B5313005FC241 /* C#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FEC546F1D1B5313005FC241 /* C#.mp3 */; };
+		7FEC547C1D1B5313005FC241 /* C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FEC54701D1B5313005FC241 /* C.mp3 */; };
+		7FEC547D1D1B5313005FC241 /* D#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FEC54711D1B5313005FC241 /* D#.mp3 */; };
+		7FEC547E1D1B5313005FC241 /* D.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FEC54721D1B5313005FC241 /* D.mp3 */; };
+		7FEC547F1D1B5313005FC241 /* E.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FEC54731D1B5313005FC241 /* E.mp3 */; };
+		7FEC54801D1B5313005FC241 /* F#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FEC54741D1B5313005FC241 /* F#.mp3 */; };
+		7FEC54811D1B5313005FC241 /* F.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FEC54751D1B5313005FC241 /* F.mp3 */; };
+		7FEC54821D1B5313005FC241 /* G#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FEC54761D1B5313005FC241 /* G#.mp3 */; };
+		7FEC54831D1B5313005FC241 /* G.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FEC54771D1B5313005FC241 /* G.mp3 */; };
+		7FEC54851D1B5457005FC241 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEC54841D1B5457005FC241 /* HelpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7FB023221D24A0FD004F12BF /* StatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		7FEC54541D1B4BE7005FC241 /* WeydaEmily_MusicLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeydaEmily_MusicLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FEC54571D1B4BE7005FC241 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FEC54591D1B4BE7005FC241 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FEC545C1D1B4BE7005FC241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FEC545E1D1B4BE7005FC241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FEC54611D1B4BE7005FC241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FEC54631D1B4BE7005FC241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FEC54691D1B4F06005FC241 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7FEC546C1D1B5313005FC241 /* A#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A#.mp3"; sourceTree = "<group>"; };
+		7FEC546D1D1B5313005FC241 /* A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A.mp3; sourceTree = "<group>"; };
+		7FEC546E1D1B5313005FC241 /* B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = B.mp3; sourceTree = "<group>"; };
+		7FEC546F1D1B5313005FC241 /* C#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C#.mp3"; sourceTree = "<group>"; };
+		7FEC54701D1B5313005FC241 /* C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C.mp3; sourceTree = "<group>"; };
+		7FEC54711D1B5313005FC241 /* D#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "D#.mp3"; sourceTree = "<group>"; };
+		7FEC54721D1B5313005FC241 /* D.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D.mp3; sourceTree = "<group>"; };
+		7FEC54731D1B5313005FC241 /* E.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E.mp3; sourceTree = "<group>"; };
+		7FEC54741D1B5313005FC241 /* F#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "F#.mp3"; sourceTree = "<group>"; };
+		7FEC54751D1B5313005FC241 /* F.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = F.mp3; sourceTree = "<group>"; };
+		7FEC54761D1B5313005FC241 /* G#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G#.mp3"; sourceTree = "<group>"; };
+		7FEC54771D1B5313005FC241 /* G.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = G.mp3; sourceTree = "<group>"; };
+		7FEC54841D1B5457005FC241 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelpViewController.swift; path = WeydaEmily_MusicLearning/HelpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FEC54511D1B4BE7005FC241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEC546A1D1B4F06005FC241 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FEC544B1D1B4BE7005FC241 = {
+			isa = PBXGroup;
+			children = (
+				7FEC54841D1B5457005FC241 /* HelpViewController.swift */,
+				7FEC54691D1B4F06005FC241 /* AVFoundation.framework */,
+				7FEC54561D1B4BE7005FC241 /* WeydaEmily_MusicLearning */,
+				7FEC54551D1B4BE7005FC241 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FEC54551D1B4BE7005FC241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FEC54541D1B4BE7005FC241 /* WeydaEmily_MusicLearning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FEC54561D1B4BE7005FC241 /* WeydaEmily_MusicLearning */ = {
+			isa = PBXGroup;
+			children = (
+				7FEC54571D1B4BE7005FC241 /* AppDelegate.swift */,
+				7FEC54591D1B4BE7005FC241 /* ViewController.swift */,
+				7FEC545B1D1B4BE7005FC241 /* Main.storyboard */,
+				7FB023221D24A0FD004F12BF /* StatsViewController.swift */,
+				7FEC546B1D1B5313005FC241 /* Notes */,
+				7FEC545E1D1B4BE7005FC241 /* Assets.xcassets */,
+				7FEC54601D1B4BE7005FC241 /* LaunchScreen.storyboard */,
+				7FEC54631D1B4BE7005FC241 /* Info.plist */,
+			);
+			path = WeydaEmily_MusicLearning;
+			sourceTree = "<group>";
+		};
+		7FEC546B1D1B5313005FC241 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				7FEC546C1D1B5313005FC241 /* A#.mp3 */,
+				7FEC546D1D1B5313005FC241 /* A.mp3 */,
+				7FEC546E1D1B5313005FC241 /* B.mp3 */,
+				7FEC546F1D1B5313005FC241 /* C#.mp3 */,
+				7FEC54701D1B5313005FC241 /* C.mp3 */,
+				7FEC54711D1B5313005FC241 /* D#.mp3 */,
+				7FEC54721D1B5313005FC241 /* D.mp3 */,
+				7FEC54731D1B5313005FC241 /* E.mp3 */,
+				7FEC54741D1B5313005FC241 /* F#.mp3 */,
+				7FEC54751D1B5313005FC241 /* F.mp3 */,
+				7FEC54761D1B5313005FC241 /* G#.mp3 */,
+				7FEC54771D1B5313005FC241 /* G.mp3 */,
+			);
+			name = Notes;
+			path = ../Notes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FEC54531D1B4BE7005FC241 /* WeydaEmily_MusicLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FEC54661D1B4BE7005FC241 /* Build configuration list for PBXNativeTarget "WeydaEmily_MusicLearning" */;
+			buildPhases = (
+				7FEC54501D1B4BE7005FC241 /* Sources */,
+				7FEC54511D1B4BE7005FC241 /* Frameworks */,
+				7FEC54521D1B4BE7005FC241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeydaEmily_MusicLearning;
+			productName = WeydaEmily_MusicLearning;
+			productReference = 7FEC54541D1B4BE7005FC241 /* WeydaEmily_MusicLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FEC544C1D1B4BE7005FC241 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "University of Cincinnati";
+				TargetAttributes = {
+					7FEC54531D1B4BE7005FC241 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5M8AX8J565;
+					};
+				};
+			};
+			buildConfigurationList = 7FEC544F1D1B4BE7005FC241 /* Build configuration list for PBXProject "WeydaEmily_MusicLearning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FEC544B1D1B4BE7005FC241;
+			productRefGroup = 7FEC54551D1B4BE7005FC241 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FEC54531D1B4BE7005FC241 /* WeydaEmily_MusicLearning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FEC54521D1B4BE7005FC241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEC54831D1B5313005FC241 /* G.mp3 in Resources */,
+				7FEC547F1D1B5313005FC241 /* E.mp3 in Resources */,
+				7FEC54781D1B5313005FC241 /* A#.mp3 in Resources */,
+				7FEC547E1D1B5313005FC241 /* D.mp3 in Resources */,
+				7FEC54621D1B4BE7005FC241 /* LaunchScreen.storyboard in Resources */,
+				7FEC54791D1B5313005FC241 /* A.mp3 in Resources */,
+				7FEC547A1D1B5313005FC241 /* B.mp3 in Resources */,
+				7FEC547D1D1B5313005FC241 /* D#.mp3 in Resources */,
+				7FEC54811D1B5313005FC241 /* F.mp3 in Resources */,
+				7FEC54821D1B5313005FC241 /* G#.mp3 in Resources */,
+				7FEC545F1D1B4BE7005FC241 /* Assets.xcassets in Resources */,
+				7FEC547B1D1B5313005FC241 /* C#.mp3 in Resources */,
+				7FEC54801D1B5313005FC241 /* F#.mp3 in Resources */,
+				7FEC547C1D1B5313005FC241 /* C.mp3 in Resources */,
+				7FEC545D1D1B4BE7005FC241 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FEC54501D1B4BE7005FC241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEC545A1D1B4BE7005FC241 /* ViewController.swift in Sources */,
+				7FEC54851D1B5457005FC241 /* HelpViewController.swift in Sources */,
+				7FB023231D24A0FD004F12BF /* StatsViewController.swift in Sources */,
+				7FEC54581D1B4BE7005FC241 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FEC545B1D1B4BE7005FC241 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEC545C1D1B4BE7005FC241 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FEC54601D1B4BE7005FC241 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEC54611D1B4BE7005FC241 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FEC54641D1B4BE7005FC241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FEC54651D1B4BE7005FC241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FEC54671D1B4BE7005FC241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeydaEmily_MusicLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uc.cech.it.basiciPhone.WeydaEmily-MusicLearning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FEC54681D1B4BE7005FC241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeydaEmily_MusicLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uc.cech.it.basiciPhone.WeydaEmily-MusicLearning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FEC544F1D1B4BE7005FC241 /* Build configuration list for PBXProject "WeydaEmily_MusicLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FEC54641D1B4BE7005FC241 /* Debug */,
+				7FEC54651D1B4BE7005FC241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FEC54661D1B4BE7005FC241 /* Build configuration list for PBXNativeTarget "WeydaEmily_MusicLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FEC54671D1B4BE7005FC241 /* Debug */,
+				7FEC54681D1B4BE7005FC241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FEC544C1D1B4BE7005FC241 /* Project object */;
+}
